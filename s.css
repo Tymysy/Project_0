@@ -69,5 +69,26 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+.enter {
+    border-radius: 20px;
+    border:3px solid #242E49;
+    width: 600px;
+    height: 40px;
+}
+
+.enter:hover {
+    border: none;
+}
+
+.buttonS {
+    width: 65px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 3px solid #242E49;
+    font-size: 1rem;
+    color: #B4182D;
 }
