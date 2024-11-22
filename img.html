@@ -16,11 +16,21 @@
         </nav>
     </header>
 
-    <h1>Image Search</h1>
+    <div class="google">
+        <span class="g">G</span>
+        <span class="o">o</span>
+        <span class="o2">o</span>
+        <span class="g2">g</span>
+        <span class="o">l</span>
+        <span class="o2">e</span>
+    </div>
+    <h2>Pictures</h2>
     
-    <form class="formD" action="https://www.google.com/search?tbm=isch&q=">
-        <input class="enter" type="text" name="q">
+    <form class="formD" action="https://www.google.com/search" method="get">
+        <input class="enter" type="text" name="q" placeholder="Enter a search picture name">
+        <input type="hidden" name="tbm" value="isch">
         <input class="buttonS" type="submit" value="Search">
     </form>
+    
 </body>
 </html>

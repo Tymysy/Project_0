@@ -66,22 +66,38 @@ header {
     margin-top: 100px;
 }
 
-h1 {
+.google {
     display: flex;
     justify-content: center;
-    font-size: 5rem;
-    color: #242E49;
-    margin-top: 150px;
+    font-size: 8rem;
+    margin-top: 175px;
+}
+.g { color: #4285F4; }
+.o { color: #EA4335; }
+.o2 { color: #FBBC05; }
+.g2 { color: #34A853; }
+
+.googleA {
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
+    margin-top: -200px;
 }
 
-h1:hover {
-    cursor: default;
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #4285F4;
+    margin-left: 350px;
+    margin-top: -30px;
 }
 
 .enter {
     border-radius: 20px;
     border:2px solid #242E49;
     font-size: 1rem;
+    margin-top: -100px;
     width: 600px;
     height: 40px;
     padding: 0 15px;
@@ -97,6 +113,7 @@ h1:hover {
     width: 65px;
     height: 40px;
     margin-left: 5px;
+    margin-top: -100px;
     background-color: #fff;
     border-radius: 20px;
     border: 2px solid #242E49;
@@ -112,4 +129,27 @@ h1:hover {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
+.formA {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    gap: 80px;
+}
 
+.enterA {
+    border-radius: 20px;
+    border:2px solid #242E49;
+    font-size: 1rem;
+    margin-top: -100px;
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+    transition: box-shadow 0.3s ease;
+}
+
+.enter:hover {
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
