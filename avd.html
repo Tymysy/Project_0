@@ -26,30 +26,33 @@
         </div>
         <h2>Advanced</h2>
         <form class="formA" action="https://www.google.com/search" method="get">
-            <label for="searchQuery">Search for:</label>
-            <input class="enterA" type="text" name="q" id="searchQuery" placeholder="Enter search term" required>
+            <div class="containeradventer">
+                <label for="searchQuery">Search for:</label>
+                <input class="enterA" type="text" name="q" id="searchQuery" placeholder="Enter search term" required>
 
-            <label for="siteSearch">Search within a site:</label>
-            <input class="enterA" type="text" name="site" id="siteSearch" placeholder="e.g. example.com">
+                <label for="siteSearch">Search within a site:</label>
+                <input class="enterA" type="text" name="site" id="siteSearch" placeholder="e.g. example.com">
 
-            <label for="fileType">File type:</label>
-            <select name="filetype" id="fileType">
-                <option value="">Any</option>
-                <option value="pdf">PDF</option>
-                <option value="doc">DOC</option>
-                <option value="ppt">PPT</option>
-                <option value="xls">XLS</option>
-            </select>
+                <label for="exclude">Exclude these words:</label>
+                <input class="enterA" type="text" name="exclude" id="exclude" placeholder="e.g. cat">
+            </div>
+            <div class="containeradvselect">
+                <label for="fileType">File type:</label>
+                <select name="filetype" id="fileType">
+                    <option value="">Any</option>
+                    <option value="pdf">PDF</option>
+                    <option value="doc">DOC</option>
+                    <option value="ppt">PPT</option>
+                    <option value="xls">XLS</option>
+                </select>
 
-            <label for="exclude">Exclude these words:</label>
-            <input class="enterA" type="text" name="exclude" id="exclude" placeholder="e.g. cat">
-
-            <label for="language">Language:</label>
-            <select name="hl" id="language">
-                <option value="en">English</option>
-                <option value="cz">Czech</option>
-                <option value="es">Spanish</option>
-            </select>
+                <label for="language">Language:</label>
+                <select name="hl" id="language">
+                    <option value="en">English</option>
+                    <option value="cz">Czech</option>
+                    <option value="es">Spanish</option>
+                </select>
+            </div>
 
             <input class="buttonS" type="submit" value="Search">
         </form>
